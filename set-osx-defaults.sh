@@ -98,8 +98,9 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Interfaces: trackpad, mouse, keyboard, bluetooth, etc.
 ###############################################################################
 
-# Set a really fast keyboard repeat rate.
-defaults write -g KeyRepeat -int 0
+# Set a really fast keyboard repeat rate. (Current sierra implementation)
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+defaults write NSGlobalDomain KeyRepeat -int 1
 
 # Disable press-and-hold for keys in favor of key repeat.
 defaults write -g ApplePressAndHoldEnabled -bool false
