@@ -18,6 +18,7 @@ brew install git
 brew install git-extras
 brew install wget
 brew install composer
+brew install mysql
 
 # Updated python/pip
 brew install python
@@ -42,11 +43,13 @@ brew cask install cyberduck
 brew cask install devdogs
 brew cask install cakebrew
 brew cask install spectacle
+brew cask install flux
 brew cask install caffeine
 brew cask install sketch-toolbox
 brew cask install imageoptim
 brew cask install firefox
 brew cask install jumpcut
+brew cask install sequel-pro
 brew cask install transmission
 
 # Install zsh
