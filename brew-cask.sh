@@ -36,7 +36,6 @@ brew cask install appcleaner
 brew cask install firefox
 brew cask install sketch
 brew cask install skype
-brew cask install iterm2-beta
 brew cask install alfred
 brew cask install google-chrome
 brew cask install cyberduck
@@ -51,6 +50,7 @@ brew cask install firefox
 brew cask install jumpcut
 brew cask install sequel-pro
 brew cask install transmission
+brew cask install hyper
 
 # Install zsh
 brew install zsh
