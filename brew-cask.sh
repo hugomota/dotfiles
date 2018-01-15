@@ -5,6 +5,7 @@ brew tap caskroom/cask
 brew tap caskroom/versions
 brew tap caskroom/fonts
 brew tap homebrew/php
+brew tap homebrew/services
 
 # Updated grep
 brew install grep
@@ -19,6 +20,7 @@ brew install git-extras
 brew install wget
 brew install composer
 brew install mysql
+
 
 # Updated python/pip
 brew install python
