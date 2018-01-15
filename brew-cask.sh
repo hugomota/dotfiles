@@ -29,33 +29,28 @@ pip install --upgrade pip
 brew cask install alfred
 brew cask install appcleaner
 brew cask install atom-beta
-brew cask install caffeine
-brew cask install cakebrew
-brew cask install cakebrew
 brew cask install cyberduck
 brew cask install devdogs
 brew cask install docker
 brew cask install dropbox
 brew cask install firefox
-brew cask install firefox
 brew cask install flux
 brew cask install google-chrome
 brew cask install imageoptim
 brew cask install jumpcut
+brew cask install postman
 brew cask install sequel-pro
-brew cask install sketch
-brew cask install sketch-toolbox
 brew cask install skype
 brew cask install slack
 brew cask install spectacle
+brew cask install spotify
 brew cask install sublime-text
 brew cask install transmission
 brew cask install virtualbox
 brew cask install vlc
-brew cask install postman
 
 # Install zsh and set as default
-brew install zsh
+brew install zsh zsh-completions
 pip chsh -s /usr/local/bin/zsh
 
 # Install GNU core utilities (those that come with OS X are outdated)
