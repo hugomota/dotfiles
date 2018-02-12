@@ -20,12 +20,16 @@ brew install git-extras
 brew install wget
 brew install composer
 brew install mysql
+brew install yarn
 
 
 # Updated python/pip
 brew install python
 pip install --upgrade setuptools
 pip install --upgrade pip
+
+# Rbenv
+brew install rbenv
 
 # cask apps
 brew cask install alfred
