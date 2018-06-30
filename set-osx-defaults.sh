@@ -98,7 +98,7 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Interfaces: trackpad, mouse, keyboard, bluetooth, etc.
 ###############################################################################
 
-# Set really fast keyboard repeat rate. (Current sierra implementation)
+# Set a really fast keyboard repeat rate. (Current sierra implementation)>>>>>>> Stashed changes
 # defaults write NSGlobalDomain InitialKeyRepeat -int 10
 # defaults write NSGlobalDomain KeyRepeat -int 1
 
@@ -154,6 +154,7 @@ defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 
 # Show hidden files and file extensions by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
+defaults write NSGlobalDomain AppleShowAllExtensions -bool false
 
 # Disable the warning when changing file extensions
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
