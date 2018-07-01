@@ -32,8 +32,7 @@ pip install --upgrade pip
 brew install rbenv
 
 # cask apps
-<<<<<<< Updated upstream
-=======
+
 brew cask install visual-studio-code
 brew cask install sublime-text
 brew cask install vlc
@@ -44,7 +43,6 @@ brew cask install appcleaner
 brew cask install firefox
 brew cask install sketch
 brew cask install skype
->>>>>>> Stashed changes
 brew cask install alfred
 brew cask install appcleaner
 brew cask install atom-beta
