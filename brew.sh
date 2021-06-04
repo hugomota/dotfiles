@@ -17,6 +17,7 @@ packages=(
   iterm2
   jumpcut
   keepassxc
+  microsoft-outlook
   microsoft-teams
   mounty
   notion
