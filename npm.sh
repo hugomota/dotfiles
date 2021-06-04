@@ -13,6 +13,9 @@
 #     ./node_modules/.bin/webpack --config webpack.local.config.js
 #
 
+#install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
 if test ! $(which nvm)
 then
   echo "Installing a stable version of Node..."
