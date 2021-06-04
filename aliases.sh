@@ -1,0 +1,20 @@
+# oh-my-zsh aliases
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+
+#git aliases
+alias add="git add"      
+alias br="git branch" 
+alias ci="git commit"    
+alias clone="git clone"
+alias co="git checkout" 
+alias fetch="git fetch"
+alias fetch="git fetch"  
+alias merge="git merge"
+alias pull="git pull"
+alias push="git push"
+alias rebase="git rebase"
+alias st="git status"       
+alias undo="git reset --soft HEAD^"
+alias stash="git stash"
+alias pullop="git stash && git pull && git stash pop"

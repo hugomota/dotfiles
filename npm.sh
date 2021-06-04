@@ -39,11 +39,9 @@ npm config set save-exact = true
 # git-recent — Type `git recent` to see your recent local git branches
 # git-open — Type `git open` to open the GitHub page or website for a repository
 packages=(
-  gulp
-  npm-check-updates
-  webpack
+  yarn
+  eslint
   nodemon
-  yo
 )
 
 npm install -g "${packages[@]}"
