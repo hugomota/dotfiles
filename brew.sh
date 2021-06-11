@@ -9,7 +9,7 @@ brew upgrade
 packages=(
   abstract
   appcleaner
-  brave-browser
+  google-chrome
   firefox
   fork
   git
